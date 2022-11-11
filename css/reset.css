@@ -1,0 +1,95 @@
+* {
+	word-break: break-all;
+}
+
+body {
+	color: #000;
+	font-size: 14px;
+	font-family: "Microsoft YaHei", "΢���ź�", tahoma, arial, simsun, "����";
+	text-align: left;
+	line-height: 150%;
+	background: #ffffff;
+}
+
+html,
+body,
+div,
+ul,
+li,
+dl,
+dt,
+dd,
+form,
+input,
+select,
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+	margin: 0px;
+	padding: 0px;
+}
+
+ul,
+li {
+	list-style: none;
+}
+
+img {
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+input,
+select {
+	font-size: 12px;
+}
+
+a:link,
+a:visited {
+	color: #454545;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ff0000;
+	text-decoration: underline;
+}
+
+.clear {
+	clear: both;
+	height: 1px;
+	margin-top: -1px;
+	overflow: hidden;
+	font-size: 0;
+	line-height: 1px
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.clearfix:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	overflow: hidden;
+	visibility: hidden;
+}
+
+
+.inline-block {
+	display: inline-block;
+}
+
+.fleft {
+	float: left;
+}
+
+.fright {
+	float: right;
+}
